@@ -8,7 +8,7 @@ import Form from './components/Form';
 function App() {
   const [transactions, setTransactions] = useState([])
 
-  // Fetch data from the the db.json using useEffect
+  // Fetch data from the the db.json using useEffect.
 
   useEffect (()=> {
     fetch ("https://my-json-server.typicode.com/FLAWIN/Codechallengebankofflatiron/transactions")
